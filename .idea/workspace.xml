@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d2f892a-d918-405e-8906-0253765b4caa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/langgraph-course.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/Section_01/Agent_01_SingleNodeAgent.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/Section_01/Agent_02_SequentialAgent.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/Section_01/Agent_03_ConditionalAgent.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="5d2f892a-d918-405e-8906-0253765b4caa" name="Changes" comment="Updated gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +69,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/implementation" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/implementation/Section_01" />
       <recent name="$PROJECT_DIR$/section_implementation" />
     </key>
@@ -103,8 +93,25 @@
       <workItem from="1752798317489" duration="534000" />
       <workItem from="1752798860125" duration="1099000" />
       <workItem from="1752851763508" duration="19746000" />
-      <workItem from="1752997472740" duration="5959000" />
+      <workItem from="1752997472740" duration="6898000" />
     </task>
+    <task id="LOCAL-00001" summary="Added 3 Non-AI Agents with LangGraph">
+      <option name="closed" value="true" />
+      <created>1753010097508</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753010097508</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated gitignore">
+      <option name="closed" value="true" />
+      <created>1753010212248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753010212248</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +127,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added 3 Non-AI Agents with LangGraph" />
+    <MESSAGE value="Updated gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
