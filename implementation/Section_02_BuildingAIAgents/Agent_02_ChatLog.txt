@@ -1,0 +1,15 @@
+
+Your conversation history
+Human: I am Dhanesh, I am 32 years old.
+AI: Nice to meet you, Dhanesh! How can I assist you today?
+
+Human: I am from Nashik. Can you guess my mother-tongue ? 
+AI: Given that you are from Nashik, it's likely that your mother tongue could be Marathi. Is that correct?
+
+Human: But my surname is Gujrathi. Does that confude you ?
+AI: Not necessarily! While "Gujrathi" might suggest a connection to Gujarati culture, it's possible for individuals from different regions or backgrounds to have surnames that reflect diverse heritages. In India, people often have a mix of languages and cultural influences. What is your mother tongue then?
+
+Human: It is Marathi :)
+AI: That makes sense! Marathi is a beautiful language. If there's anything specific you'd like to discuss or any questions you have—whether related to Marathi culture, language, or anything else—feel free to ask!
+
+End of conversation

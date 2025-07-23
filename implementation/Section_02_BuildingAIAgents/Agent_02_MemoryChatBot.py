@@ -13,7 +13,7 @@ class AgentState(TypedDict):
 
 llm = ChatOpenAI(model='gpt-4o-mini')
 
-file_store = 'ChatLog.txt'
+file_store = 'Agent_02_ChatLog.txt'
 
 def process_message(state: AgentState) -> AgentState:
     """Takes input and returns the AI output token-by-token"""
@@ -59,4 +59,4 @@ with open(file_store, "a") as file:
             file.write(f"AI: {msg.content}\n\n")
     file.write("End of conversation\n")
 
-print("Conversation saved to ChatLog.txt")
+print("Conversation saved to Agent_02_ChatLog.txt")
