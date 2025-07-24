@@ -79,7 +79,6 @@ def print_stream(stream):
         else:
             message.pretty_print()
 
-input_prompt = {"messages": "I have 20 dollars in portfolio and I received 30 dollars in profit. Also, I received 20% appreciation on the total value. How much my account value?"}
+input_prompt = {"messages": "I have 20 dollars in portfolio and I received 10 dollars in dividend. Also, I received 20% appreciation on the total value. How much my account value? Also who is Apple CEO ?"}
 
 print_stream(app.stream(input=input_prompt, stream_mode="values"))
-
