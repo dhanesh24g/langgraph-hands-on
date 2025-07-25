@@ -1,0 +1,15 @@
+Subject: Application for AI Engineer Position
+
+Dear OpenAI Team,
+
+I hope this message finds you well. I am writing to express my interest in the AI Engineer position. With 11 years of solid background in artificial intelligence and machine learning, combined with hands-on experience in developing AI solutions, I am enthusiastic about the opportunity to contribute to your organization.
+
+In my previous role at OCBC Bank, I successfully led multiple projects that implemented AI solutions to enhance customer experience and streamline operations. I have a proven track record of utilizing advanced algorithms and AI technologies to create impactful solutions. My expertise includes Langchain, Langgraph, Langsmith, Ollama, RAG, and Tool-calling. I am particularly drawn to this opportunity at OpenAI because of your pioneering work in AI research and development which aligns with my passion for pushing the boundaries of technology.
+
+Enclosed is my resume, which provides additional details about my education and professional journey. I would be delighted to further discuss how my skills and experiences align with the needs of your team.
+
+Thank you for considering my application. I look forward to the possibility of discussing this exciting opportunity with you.
+
+Warm regards,
+
+Dhanesh Gujrathi

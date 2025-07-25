@@ -1,0 +1,45 @@
+**Job Title: AI Engineer**
+
+**Location: Singapore**
+
+**Company: DG Solutions**
+
+**Position Type: Full-Time**
+
+**About Us:**
+Join a trailblazing company that leverages AI to innovate and provide advanced solutions. Our dynamic team thrives on pushing technological boundaries to achieve excellence.
+
+**Job Description:**
+We're looking for an AI Engineer to design and develop AI models, collaborating with our team to meet client needs and improve business operations.
+
+**Key Responsibilities:**
+- Develop and implement AI algorithms and models.
+- Work with teams to create AI solutions aligned with business goals.
+- Stay updated on AI technologies.
+- Deploy optimized AI models.
+- Analyze data for AI strategy development.
+- Document AI models and processes.
+
+**Qualifications:**
+- Degree in Computer Science, Engineering, or related field.
+- Experience in AI/ML development.
+- Knowledge of machine learning algorithms.
+- Skilled in Python, R, or Java.
+- Familiar with TensorFlow, PyTorch.
+- Problem-solving and communication skills.
+
+**Preferred Qualifications:**
+- AI solutions experience in [specific industry].
+- Familiarity with AWS, Google Cloud, or Azure.
+- Data visualization knowledge.
+
+**Benefits:**
+- Competitive salary and bonuses.
+- Health insurance.
+- Flexible hours and remote work.
+- Professional development opportunities.
+
+**Application Process:**
+Submit your resume and cover letter outlining your experience and interest.
+
+Join us to transform industries with AI technology!
