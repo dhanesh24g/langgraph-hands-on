@@ -1,7 +1,7 @@
 [project]
 name = "langgraph-course"
 version = "0.1.0"
-description = "This repo contains my langgraph course related coding assignments"
+description = "This repository contains modular, hands-on examples exploring key concepts and components in building LLM-powered applications using Python, LangChain, LangGraph and agentic AI workflows."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
