@@ -5,7 +5,6 @@ from langgraph.graph import StateGraph, START, END
 from dotenv import load_dotenv
 
 load_dotenv(override=True)
-load_dotenv('./../../.env')
 
 llm = ChatOllama(
     base_url="http://localhost:11434",

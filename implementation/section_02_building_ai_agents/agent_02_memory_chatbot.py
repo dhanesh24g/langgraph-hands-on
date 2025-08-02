@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, AIMessage
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 class AgentState(TypedDict):
     messages: List[Union[HumanMessage, AIMessage]]

@@ -8,7 +8,7 @@ from langgraph.graph.message import add_messages
 from langgraph.prebuilt import ToolNode
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 # Global variable to store the document content (Alternate to InjectedState)
 document_content = ""
