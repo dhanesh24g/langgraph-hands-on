@@ -5,7 +5,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.tools import tool
 from langgraph.graph import StateGraph, END
 from langgraph.graph.message import add_messages
-from langgraph.prebuilt import ToolNode
+from langgraph.prebuilt import ToolNode, tools_condition
 
 load_dotenv(override=True)
 
@@ -41,33 +41,22 @@ def model_call(state: AgentState) -> AgentState:
     return {"messages": [response]}
 
 
-def should_continue(state: AgentState) -> AgentState:
-    messages = state["messages"]
-    last_message = messages[-1]
-
-    if not last_message.tool_calls:
-        return "end"
-    else:
-        return "continue"
-
-
 graph = StateGraph(AgentState)
-graph.add_node("our_agent", model_call)
 
-tool_node = ToolNode(tools=list_of_tools)
-graph.add_node("tools", tool_node)
+graph.add_node("our_agent", model_call)
+graph.add_node("tool_node", ToolNode(tools=list_of_tools))
 
 graph.set_entry_point("our_agent")
 graph.add_conditional_edges(
     "our_agent",
-    should_continue,
+    tools_condition,
     {
-        "continue": "tools",
-        "end": END
+        "tools": "tool_node",
+        "__end__": END
     }
 )
 
-graph.add_edge("tools", "our_agent")
+graph.add_edge("tool_node", "our_agent")
 
 app = graph.compile()
 
@@ -79,6 +68,6 @@ def print_stream(stream):
         else:
             message.pretty_print()
 
-input_prompt = {"messages": "I have 20 dollars in portfolio and I received 10 dollars in dividend. Also, I received 20% appreciation on the total value. How much my account value? Also who is Apple CEO ?"}
+input_prompt = {"messages": "I have 200 dollars in portfolio and I received 10 dollars in dividend. Also, I received 20% appreciation on the portfolio value. How much is my account value? Also who is Apple CEO ?"}
 
 print_stream(app.stream(input=input_prompt, stream_mode="values"))
